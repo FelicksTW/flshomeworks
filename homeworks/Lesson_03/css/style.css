@@ -1,0 +1,96 @@
+@import url("reset.css");
+
+h1 {
+  color: red;
+}
+
+.text {
+  color: yellowgreen;
+}
+
+.text>p {
+  color: blue;
+}
+
+#info {
+  color: purple;
+}
+
+.green {
+  color: green;
+}
+
+.green>a {
+  color: blue;
+}
+
+
+/* інший варіант зробити зробити всі посилання синіми
+a {
+  color: blue;
+} 
+  */
+
+.title {
+  color: aqua;
+}
+
+.sub-title {
+  color: aquamarine;
+}
+
+.ol-list>li {
+  color: gray;
+}
+
+.item {
+  color: firebrick;
+}
+
+.item-4 {
+  color: blue;
+}
+
+.picture+p {
+  color: red;
+}
+
+h3 {
+  color: goldenrod;
+}
+
+h3~p {
+  color: green;
+}
+
+.blue {
+  color: blue;
+}
+
+ul {
+  color: red;
+}
+
+ul>li~li {
+  color: green;
+}
+
+li>ul>li {
+  color: blue;
+}
+
+li>ul>li+li {
+  color: orange;
+}
+
+ol>li {
+  color: #4597f7;
+}
+
+ul>li>span {
+  color: #a0f0fc;
+}
+
+ol>li~li {
+  color: #5d5d5d;
+}

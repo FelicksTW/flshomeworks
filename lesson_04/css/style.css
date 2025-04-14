@@ -1,0 +1,144 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+
+h1 {
+  color: red;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.1;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.text {
+  color: yellowgreen;
+}
+
+.text>p {
+  color: blue;
+}
+
+#info {
+  color: purple;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.green {
+  color: green;
+}
+
+.green>a {
+  color: rgba(12, 300, 210, 0.8);
+  text-decoration: underline;
+  text-decoration-color: #4597f7;
+  letter-spacing: 3px;
+}
+
+
+/* інший варіант зробити зробити всі посилання синіми
+a {
+  color: blue;
+} 
+  */
+
+.title {
+  color: aqua;
+  line-height: 1.2;
+}
+
+.sub-title {
+  color: aquamarine;
+  line-height: 1.2;
+}
+
+.ol-list>li {
+  color: gray;
+}
+
+.item {
+  color: firebrick;
+}
+
+.item-4 {
+  color: blue;
+}
+
+.picture+p {
+  color: red;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h3 {
+  color: goldenrod;
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h3~p {
+  color: green;
+  word-spacing: 10px;
+}
+
+.blue {
+  color: blue;
+}
+
+ul {
+  color: red;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
+ul>li~li {
+  color: green;
+}
+
+li>ul>li {
+  color: blue;
+}
+
+li>ul>li+li {
+  color: orange;
+}
+
+ol>li {
+  color: #4597f7;
+}
+
+ul>li>span {
+  color: #a0f0fc;
+}
+
+ol>li~li {
+  color: #5d5d5d;
+}
+
+.about-section {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ecobazar__body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+.ecobazar__title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.ecobazar__text {
+  font-size: 18px;
+}

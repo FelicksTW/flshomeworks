@@ -1,0 +1,22 @@
+@import url("reset.css");
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: bisque;
+}
+
+.wrapper {
+  overflow: clip;
+  min-height: 100%;
+}
+
+.header {
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
